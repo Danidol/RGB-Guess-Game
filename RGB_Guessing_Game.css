@@ -1,0 +1,87 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+#container {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.square {
+    width: 30%;
+    background: burlywood;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 13%;
+    transition: background 0.4s;
+}
+
+#message {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+    transition: background 0.4s;
+
+
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: steelblue;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.4s;
+
+
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+#message {
+    display: inline-block;
+    width: 15%;
+    color: steelblue;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+}
